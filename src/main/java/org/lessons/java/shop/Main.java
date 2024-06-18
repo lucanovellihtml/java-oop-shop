@@ -16,7 +16,11 @@ public class Main {
 		Utility.getNameCode(phone.getCode(), phone.getName());
 
 		
-		//BONUS
+		/*
+		   - BONUS
+		   - METODO CHE AGGIUNGE N° ZERI SE IL CODICE HA UNA LUNGHEZZA INFERIORE A 8 CIFRE, PER ARRIVARE A UNA LUNGHEZZA PARI A OTTO CIFRE;
+		 */
+		Utility.getPadLeftCode(phone.getCode());
 		
 	}
 
