@@ -34,8 +34,9 @@ public class Utility {
 		//CAST DA STRING A INT
 		codeZero += codeProduct;
 		
-		System.out.printf("- LUNGHEZZA CODE ---> " + Integer.parseInt(codeZero));
+		System.out.printf("- LUNGHEZZA CODE ---> " + codeZero + "\n");
 	}
-	
+		
 	
 }
+
